@@ -8,8 +8,8 @@ let db = null;
 MongoClient.connect(url, {useUnifiedTopology: true}, (err, client) => {
   console.log('Connected successfully to db server');
 
-  //connect to myproject database
-  db = client.db('myproject');
+  //connect to badbankUsers database
+  db = client.db('badbankUsers');
 });
 
 //create user account

@@ -5,7 +5,7 @@ MongoClient.connect(url, {useUnifiedTopology: true}, (err, client) => {
   console.log('Connected!');
 
   //database name
-  const dbName = 'myproject';
+  const dbName = 'badbankUsers';
   const db = client.db(dbName);
 
   //new user

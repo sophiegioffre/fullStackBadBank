@@ -27,7 +27,7 @@ app.get('/account/login/:email/:password', (req, res) => {
 });
 */
 
-//all data route using dal
+//all account data route using dal
 app.get('/account/all', (req, res) => {
   dal.all()
     .then((docs) => {
